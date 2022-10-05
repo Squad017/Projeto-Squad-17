@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <!-- INICIO NAVBAR -->
+  <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgba(30, 2, 66, 0.9); color: white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          ">Guia Nivela Tech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- FIM NAVBAR -->
+
+  <!-- INICIO TITULO  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 titleDocente ">
+        <p>
+          Para o seu primeiro acesso, é necessário se <strong>cadastrar como
+            Docente</strong> para ter acessoao sistema.
+        </p>
+      </div>
+
+      <div class="col-md-12">
+        <form class="formDoc">
+          <h4>Dados Pessoais</h4>
+
+          <div class="form-group">
+            <label for="name">Seu nome</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Seu nome" value="" />
+          </div>
+
+          <div class="form-group">
+            <label for="cpf">Seu Cpf</label>
+            <input type="text" class="form-control" id="cpf" aria-describedby="cpf" placeholder="Seu cpf" value="" />
+
+            <label for="dataNasc">Sua data de Nascimento</label>
+            <input type="text" class="form-control" id="dataNasc" aria-describedby="dataNasc"
+              placeholder="Data de Nascimento" value="" />
+          </div>
+
+          <div class="form-check form-check-inline">
+            <label>Qual seu gênero ?</label>
+          </div>
+          <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Masculino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Feminino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox3">Outros</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+            <label class="form-check-label" for="inlineCheckbox3">Prefiro não informar</label>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Endereço de email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email"
+              value="" />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Confirme seu email</label>
+            <input type="email" class="form-control" id="ConfirmeEmail" aria-describedby="confirmeE"
+              placeholder="Confirme Seu email" value="" />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="password" placeholder="Senha" value="" />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirma Senha</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Senha" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <form class="formDoc">
+          <h4>Dados Profissionais</h4>
+
+          <div class="form-check form-check-inline">
+            <label>Rede ?</label>
+          </div>
+          <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Estadual</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Municipal</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox3">Federal</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+            <label class="form-check-label" for="inlineCheckbox3">Particular</label>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Estado</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Alagoas</option>
+              <option>São Paulo</option>
+              <option>Bahia</option>
+              <option>Rio de Janeiro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Cidade</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Cidade 1</option>
+              <option>Cidade 2</option>
+              <option>Cidade 3</option>
+              <option>Cidade 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Escola</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Escola 1</option>
+              <option>Escola 2</option>
+              <option>Escola 3</option>
+              <option>Escola 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Estapas do encino</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Etapas 1</option>
+              <option>Etapas 2</option>
+              <option>Etapas 3</option>
+              <option>Etapas 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Área do Conhecimento / Componente Curricular</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Área 1</option>
+              <option>Área 2</option>
+              <option>Área 3</option>
+              <option>Área 4</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <form class="formDoc">
+          <h4>Formação</h4>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Qual o seu nível de formação?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Nivel 1</option>
+              <option>Nivel 2</option>
+              <option>Nivel 3</option>
+              <option>Nivel 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Qual o seu curso de formação inicial?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Opção 1</option>
+              <option>Opção 2</option>
+              <option>Opção 3</option>
+              <option>Opção 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Na formação inicial, teve prática de estágio?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Opção 1</option>
+              <option>Opção 2</option>
+              <option>Opção 3</option>
+              <option>Opção 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Qual a instituição de ensino que você estudou (formação
+              inicial)?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Opção 1</option>
+              <option>Opção 2</option>
+              <option>Opção 3</option>
+              <option>Opção 4</option>
+            </select>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <label>Você teve alguma disciplina ou conteúdo para uso de tecnologia no ensino e na aprendizagem no curso
+              de formação inicial?</label>
+          </div>
+          <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Sim</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Não</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <label>Qual a modalidade do seu curso de formação inicial?</label>
+          </div>
+          <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Presencial</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Semi-Presencial</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">A-Distância</label>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Participou de formações continuadas para o uso de tecnologias digitais
+              nos processos de ensino e de aprendizagem nos últimos 2 anos?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Opção 1</option>
+              <option>Opção 2</option>
+              <option>Opção 3</option>
+              <option>Opção 4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Há quantos anos você leciona?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>1 á 3</option>
+              <option>4 á 6</option>
+              <option>7 á 9</option>
+              <option>Mais de 10</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Há quantos anos usa tecnologia nos processos de ensino e
+              aprendizagem?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>1 á 3</option>
+              <option>4 á 6</option>
+              <option>7 á 9</option>
+              <option>Mais de 10</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sel1" class="form-label">Como a tecnologia é aplicada nos processos de ensino e de
+              aprendizagem?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+              <option>Opção 1</option>
+              <option>Opção 2</option>
+              <option>Opção 3</option>
+              <option>Opção 4</option>
+            </select>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label>Li e aceito os termos do Guia Nivela Tech</label>
+            </div>
+          </div>
+
+
+          <button type="submit" id="submitRegister" class="btn btn-color">
+            Cadastrar
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- FIM TITULO  -->
+
+  <!-- INICIO FOOTER -->
+  <div class="container-fluid mt-5 p-3" style="background-color:rgba(30,2,66,0.9);">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit; color: white;">© 2022 Squad 17, Recode Pró
+            </font>
+          </font>
+        </span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imagens/facebook.png" class="bi" width="24"
+              height="24"></img></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imagens/instagram.png" class="bi" width="24"
+              height="24"></img></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imagens/Linkedin.png" class="bi" width="24"
+              height="24"></img></a></li>
+
+
+      </ul>
+    </footer>
+  </div>
+  <!-- FIM FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document
+      .querySelector("#submitRegister")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+
+        if (document.querySelector("#name").value === "") {
+          alert("Necessario preenchimento campo Nome");
+          return;
+        }
+
+        if (document.querySelector("#email").value === "") {
+          alert("Necessario preenchimento campo E mail");
+          return;
+        }
+
+        if (document.querySelector("#password").value === "") {
+          alert("Necessario preenchimento campo Senha");
+          return;
+        }
+
+        if (document.querySelector("#confirmPassword").value === "") {
+          alert("Necessario preenchimento campo Confirmar Senha");
+          return;
+        }
+
+        if (
+          document.querySelector("#confirmPassword").value !==
+          document.querySelector("#password").value
+        ) {
+          alert("A confirmação de senha esta incorreta!");
+          return;
+        }
+
+        const data = {
+          name: document.querySelector("#name").value,
+          email: document.querySelector("#email").value,
+          password: document.querySelector("#password").value,
+        };
+
+        const store = localStorage.getItem("@banco");
+
+        if (store !== null) {
+          const banco = JSON.parse(store);
+
+          const NewData = [...banco, data];
+          localStorage.setItem("@banco", JSON.stringify(NewData));
+        } else {
+          localStorage.setItem("@banco", JSON.stringify([data]));
+        }
+      });
+  </script>
+</body>
+
+</html>

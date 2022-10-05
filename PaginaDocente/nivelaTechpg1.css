@@ -1,0 +1,289 @@
+/*-----GERAL------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.col{
+    margin: 1rem;
+}
+.container{
+    padding: 1rem 0.5rem;
+}
+
+
+
+/*-----NAV BAR------*/
+.bg-light {
+    background-color: rgba(30, 2, 66, 0.9)!important;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.219);
+    border-color: rgba(255, 255, 255, 0.384);
+}
+
+.navbar-nav .nav-link {
+    text-align: end;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(159, 176, 236, 0.801);
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: aliceblue;
+}
+.mr-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+
+/*-----FORMULARIO DE ENTRADA/CADASTRO------*/
+
+form{
+    box-shadow: 1px 1px 6px 1px #958f8f6e;
+    padding: 20px;
+    margin: 5px;
+}
+
+.p-form{
+ text-align: center;
+}
+
+.cad {
+    margin: 20px 1rem 20px 0;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px 1px #958f8f6e;
+}
+
+.p-cad{
+    margin-top: 4rem;
+}
+
+#btn-cad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.pwd-form{
+    padding-top: .75rem;
+    text-align: end;
+}
+
+/*-----SEÇÃO DE AUTOAVALIAÇÃO------*/
+
+.section-one{
+    padding: .75rem;
+}
+
+.title-section{
+    font-size: x-large;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+}
+
+.img-section {
+    margin-left: 20px;
+}
+
+.p-section {
+    font-size: large;
+}
+
+/*-----SEÇÃO 2------*/
+
+.section-two{
+    background-color: #D1C5E3;
+}
+
+/*-----SEÇÃO 3------*/
+.section-three{
+margin-top: 3rem;
+}
+
+/*-----SEÇÃO 4------*/
+.section-four{
+    background-color: #231138ef;
+    padding-bottom: 5rem;
+}
+
+.title-four{
+    color: #D1C5E3;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+}
+
+.p-four{
+    color: #D1C5E3;
+    font-size: large;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+}
+
+.card-one, .card-two, .card-three {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-one{
+    background-color: rgba(44, 24, 221, 0.822);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.card-two{
+    background-color: rgba(103, 221, 24, 0.822);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.card-three{
+    background-color: rgba(221, 24, 195, 0.822);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.list-one {
+    color: white;
+    border-bottom: 4px solid rgba(44, 24, 221, 0.822);
+    padding: 1rem;
+} 
+
+.list-two {
+    color: white;
+    border-bottom: 4px solid rgba(103, 221, 24, 0.822);
+    padding: 1rem;
+}
+
+.list-three {
+    color: white;
+    border-bottom: 4px solid rgba(221, 24, 195, 0.822);
+    padding: 1rem;
+}
+
+.p-posCard{
+    margin-bottom: 0;
+    color: #D1C5E3;
+    font-size: large;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+    padding: 1rem;
+}
+
+.img-nivel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav-item{
+    color: rgb(77, 148, 230);
+    font-weight: 500;
+}
+
+.tab-pane {
+    color: #ffffff;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+/*-----SEÇÃO 5------*/
+.section-five{
+    background-color: #22A0A8;
+    height: 250px;
+    overflow: hidden;
+}
+
+.title-section-five{
+    font-size: x-large;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+.img-evoluçao{
+    margin-top: -8rem;
+}
+
+.p-five{
+    color: #D1C5E3;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+    padding: 1rem;
+}
+
+/*-----SEÇÃO 6------*/
+
+.section-six{
+    padding-bottom: 2rem;
+}
+
+.title-six{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #5f5c5c67;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#btn-six{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+}
+
+footer{
+    background-color: rgba(30, 2, 66, 0.9);
+}
+
+/*-----RESPONSIVIDADE------*/
+@media (max-width: 810px) {
+    .row{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } .cad {
+        margin: 20px 5px 20px 35px;
+    }
+}

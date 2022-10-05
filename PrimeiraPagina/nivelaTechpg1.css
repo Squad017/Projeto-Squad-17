@@ -1,0 +1,222 @@
+.btn-color {
+    background-color: rgba(63, 100, 230, 0.6);
+}
+
+
+.bg-color {
+    background-color: rgba(30, 2, 66, 0.9);
+    
+}
+
+.carousel-item > img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 24rem;
+    opacity: 90%;
+}
+
+img {
+    border-style: none;
+}
+
+*,::after ::before {
+    box-sizing: border-box;
+
+}
+
+
+
+.container-fluid{
+    position: absolute;
+    background: #D1C5E3; 
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .container-fluid h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 104px;
+  }
+  
+  .container-fluid .paragrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 50PX;
+    font-size: 16px;
+    line-height: 50px;
+    color: #3C6B8E;
+  }
+  
+  .container-fluid span{
+    color: #3C6B8E; 
+  }
+  
+  .container-fluid .containerCard .card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D1C5E3;
+    align-items: center;
+    border-color: white;
+  }
+  
+  .container-fluid .containerCard .card .card-body .title{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .container-fluid .containerCard .card .text{
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .container-fluid .containerCard .card a{
+    padding: 0px;
+    border-radius: 23px;
+    margin-left: 111px;
+    margin-right: 92px;
+    background: #3F64E6;
+  }
+  
+  .container-fluid .containerCard .card img{
+    background-color: #4F4896;
+    text-decoration: uppercase;
+    float: inline-start;
+    border-radius: 36px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -42px;
+  }
+
+  
+.container-fluid{
+    background: #D2D1F0; 
+    margin: 0; 
+    padding: 20px;
+    color: #151d3c;
+    text-align: center; 
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .container-fluid h3{
+    font-weight: 600;
+  }
+  
+  .container-fluid h3 span{
+    color: #3C6B8E; 
+  }
+  
+  .containerNivelaTec p{
+    font-size: 16px;
+  }
+  
+  .container-fluid .containerCards{
+  
+    background: rgba(210, 199, 242, 0.71); 
+    padding: 20px;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .container-fluid .containerCards .cards{
+  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .container-fluid .containerCards .cards .item{
+  
+    background: rgba(30, 2, 66, 0.8);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+  }
+  
+  .container-fluid .containerCards .cards .item .topo{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 18px;
+  }
+  
+  .container-fluid .containerCards .cards .item .topo img{ 
+    border-radius: 105px;
+    background: white;
+    width: 60px;
+    padding: 10px;
+  }
+  
+  .container-fluid .containerCards .cards .item .titulo{ 
+    text-align: left; 
+  }
+  
+  .container-fluid .containerCards .cards .item .titulo p{ 
+  
+    color:#6A7DC8;
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  .container-fluid .containerCards .cards .item .titulo span{ 
+  
+    color:#FFFFFF;
+    font-size: 16px;
+  }
+  
+  .container-fluid .containerCards .cards .item .duvidas{ 
+  
+    background: #4F4896;
+    border-radius: 5px;
+    color: #AE95FB;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .container-fluid .containerCards .cards .item .duvidas img{ 
+  
+    height: 54px;
+    background: #4F4896;
+    border-radius: 5px;
+    color: #AE95FB;
+    font-size: 5px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -4px;
+    margin-right: 2px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+   
+ 

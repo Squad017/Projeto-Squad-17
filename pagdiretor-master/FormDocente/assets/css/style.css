@@ -1,0 +1,48 @@
+body {
+  margin: 0%;
+}
+.formDoc{
+  padding: 50px;;
+border-bottom: 2px solid #ddd;
+}
+
+p{
+  font-size: 30px;
+  margin: 40px;
+}
+
+h4{
+  color: rgba(63, 100, 230, 0.6);
+}
+
+.formDoc{
+  border-bottom: 4px solid rgba(63, 100, 230, 0.6);
+}
+
+.form-group{
+  margin: 20px;
+}
+
+.form-check{
+  margin: 10px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn-color {
+  background-color: rgba(63, 100, 230, 0.6);
+  color: #fff;
+  border: none;
+  padding: 10px 40px 10px 40px;
+  width: 100%;
+}
